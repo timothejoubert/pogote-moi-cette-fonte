@@ -1,0 +1,113 @@
+/*********/
+/* FONTS */
+/*********/
+
+/* poppins */
+/* 
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Black-Black.otf") format("truetype");
+    font-weight: 800;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Black-BlackItalic.otf") format("truetype");
+    font-weight: 800;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Bold.otf") format("truetype");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-BoldItalic.otf") format("truetype");
+    font-weight: 600;
+    font-style: italic;
+}   
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Medium.otf") format("truetype");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-MediumItalic.otf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.otf") format("truetype");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-RegularItalic.otf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Light.otf") format("truetype");
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-LightItalic.otf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Thin.otf") format("truetype");
+    font-weight: 200;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-LightItalic.otf") format("truetype");
+    font-weight: 200;
+    font-style: italic;
+} */
+
+
+
+/* variable */
+@font-face {
+    font-family: "grid";
+    src: url('../fonts/GridlitePEVF-all.ttf') format('truetype');
+}
+@font-face {
+    font-family: "grid compact";
+    src: url('../fonts/GridlitePECompact-all.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Handjet";
+    src: url('../fonts/Handjet[EGRD\,ESHP\,wght].ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Roland";
+    src: url('../fonts/Roland-Variable-Full.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: "Trispace";
+    src: url('../fonts/Trispace[wdth\,wght].ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "36Days";
+    src: url('../fonts/BF36DAYSlightbold.ttf') format('truetype');
+}
+@font-face {
+    font-family: "36Days super";
+    src: url('../fonts/BF36DAYSupperlower.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Anybody";
+    src: url('../fonts/Anybody[slnt,wdth,wght].ttf') format('truetype');
+}
