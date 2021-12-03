@@ -30,6 +30,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-rendering: optimizeLegibility;
 }
 ::-moz-selection {
     color: var(--light-color);
@@ -53,7 +54,7 @@ h6,
 p,
 li,
 a {
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
 }
 /* titre chapitre */
 h2 {
@@ -114,12 +115,16 @@ li {
     height: 1px;
 }
 .welcome p, .welcome h1{
-    font-family: "Anybody", "Poppins", sans-serif;
+    font-family: "Anybody", sans-serif;
     text-align: center;
 }
-.welcome h1{
+.welcome h1 span{
     text-transform: uppercase;
-    font-variation-settings: "wght" 500, "wdth" 100;
+}
+.welcome h1 span{
+    text-transform: uppercase;
+    font-family: "Anybody", sans-serif;
+    font-variation-settings: "wght" 300, "wdth" 100;
 }
 .welcome p{
     font-size: 1.2em;
@@ -646,7 +651,7 @@ div.dg.a *{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 30px 0;
+    padding: 80px 0;
     width: 100vw;
     overflow: hidden;
     border-top: 2px var(--dark-color) solid;
@@ -660,7 +665,7 @@ div.dg.a *{
     word-wrap: break-word;
     user-select: none;
     letter-spacing: -1px;
-    line-height: 0.8em;
+    line-height: 1.1em;
     font-variation-settings: "wght" var(--wghtFont), "BACK" var(--wghtBack), "ESHP" var(--shapeFont);
     z-index: -3;
     max-width: 900px;
